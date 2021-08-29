@@ -683,51 +683,51 @@ See https://wiki.openstreetmap.org/wiki/OpenRailwayMap for details.
 				de.text="Außer Betrieb"
 				/>
 		</item>
-        <item de.name="Schlüsselschalter" name="Key switch" type="node">
-            <label text="key switch" de.text="Schlüsselschalter" />
-            <key key="railway" 
-                value="key_switch" />
-            <label text="key switch for departure signals"
-                de.text="Schlüsselschalter für Abfahlsignale" />
-            <check key="railway:key_switch:departure"
-                text="Key switch for german departure signal (DE-ESO:zp9)"
-                de.text="Schlüsselschalter für Abfahrtssignal (DE-ESO:zp9)"
-                value="DE-ESO:zp9" />
-            <check key="railway:key_switch:close_doors"
-                text="Key switch for german signal to close the doors (DE-ESO:zp10)"
-                de.text="Schlüsselschalter für Türschließsignal (DE-ESO:zp10)"
-                value="DE-ESO:zp10" />
-            <text key="railway:key_switch:track"
-                text="Track assigned to the key switch"
-                de.text="Für welches Gleis gilt der Schlüsselschalter?"
-                />
-            <label text="Key switch for crossings"
-                de.text="Schlüsselschalter für Bahnübergänge "
-                />
-            <check key="railway:key_switch:crossing"
-                value="yes"
-                text="Key switch for crossings?"
-                de.text="Schlüsselschalter für Bahnübergänge?"
-                />
-            <combo key="railway:key_switch:crossing:usage"
-                text="railway:key_switch:crossing:usage"
-                de.text="railway:key_switch:crossing:usage"
-                values="usual,replacement"
-                de.display_values="reguläre Bedienung,Hilfsbedienung"
-                display_values="usual,replacement"
-                />
-            <combo key="railway:key_switch:crossing:type"
-                text="railway:key_switch:crossing:type"
-                de.text="railway:key_switch:crossing:type"
-                values="key,square,button"
-                de.display_values="Schlüssel,Vierkantschlüssel,Knopf"
-                display_values="key,square,button"
-                />
-            <text key="railway:key_switch:crossing:position"
-                text="Position of the controlled crossing"
-                de.text="km-Angabe des zugehörigen Bahnübergangs"
-                />
-        </item>
+		<item de.name="Schlüsselschalter" name="Key switch" type="node">
+			<label text="key switch" de.text="Schlüsselschalter" />
+			<key key="railway" 
+				value="key_switch" />
+			<label text="key switch for departure signals"
+				de.text="Schlüsselschalter für Abfahlsignale" />
+			<check key="railway:key_switch:departure"
+				text="Key switch for german departure signal (DE-ESO:zp9)"
+				de.text="Schlüsselschalter für Abfahrtssignal (DE-ESO:zp9)"
+				value="DE-ESO:zp9" />
+			<check key="railway:key_switch:close_doors"
+				text="Key switch for german signal to close the doors (DE-ESO:zp10)"
+				de.text="Schlüsselschalter für Türschließsignal (DE-ESO:zp10)"
+				value="DE-ESO:zp10" />
+			<text key="railway:key_switch:track"
+				text="Track assigned to the key switch"
+				de.text="Für welches Gleis gilt der Schlüsselschalter?"
+				/>
+			<label text="Key switch for crossings"
+				de.text="Schlüsselschalter für Bahnübergänge "
+				/>
+			<check key="railway:key_switch:crossing"
+				value="yes"
+				text="Key switch for crossings?"
+				de.text="Schlüsselschalter für Bahnübergänge?"
+				/>
+			<combo key="railway:key_switch:crossing:usage"
+				text="railway:key_switch:crossing:usage"
+				de.text="railway:key_switch:crossing:usage"
+				values="usual,replacement"
+				de.display_values="reguläre Bedienung,Hilfsbedienung"
+				display_values="usual,replacement"
+				/>
+			<combo key="railway:key_switch:crossing:type"
+				text="railway:key_switch:crossing:type"
+				de.text="railway:key_switch:crossing:type"
+				values="key,square,button"
+				de.display_values="Schlüssel,Vierkantschlüssel,Knopf"
+				display_values="key,square,button"
+				/>
+			<text key="railway:key_switch:crossing:position"
+				text="Position of the controlled crossing"
+				de.text="km-Angabe des zugehörigen Bahnübergangs"
+				/>
+		</item>
 		<group name="Operating Sites" de.name="Betriebsstellen">
 			<item name="Station" de.name="Bahnhof" type="node">
 				<label text="Passenger station and stations which are used both for passengers and freight"
